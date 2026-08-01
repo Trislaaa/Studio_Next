@@ -1,0 +1,276 @@
+--- PAGE 1 ---
+
+--- PAGE 2 ---
+
+--- PAGE 3 ---
+
+--- PAGE 4 ---
+
+--- PAGE 5 ---
+
+--- PAGE 6 ---
+
+--- PAGE 7 ---
+
+--- PAGE 8 ---
+Model Working Area Machine Size (L×W×H) 
+GA-D3648C (A0) 36" × 48" 1600mm×1400mm×1300mm  
+GA-D4460C (A00) 44" × 60" 1800mm×1500mm×1300mm  
+ 
+
+--- PAGE 9 ---
+Technical Specification  Details 
+Model H185-4 Maximum feed width  190 cm 
+Print width 185 cm Machine width  248 cm 
+Nozzle type HP45A Print speed Double Injection 90M²/h  
+Drawing materials  48-100g news CAD paper  
+Mode of paper supply  Automatic paper feeding, automatic delivery  
+Resolution 150-600 dpi (line thickness adjustable)  
+Compatible software  Domestic and foreign CAD software, HPGL, PLT, DXF format, special format can be customized  
+Mode of transmission  Port/LAN Wireless/USB drive -free interface 
+Power supply voltage  220V 50Hz 120W  
+Machine construction  Standardized die structure, machine head and foot two parts  
+ 
+
+--- PAGE 10 ---
+Parameter XH-1600AL XH-1800AL XH-2000AL 
+Max Cutting Width 150cm 170cm 190cm 
+Max Print Width 160cm 180cm 200cm 
+Machine Size - L×W×H (cm) 232×69×103 252×69×103 272×69×103 
+Paper Feeding Mode  Double paper feeding syste m 
+Paper Type CAD drawing paper (40~250g/m²), roll type marking paper, kraft paper, new paper  
+Interface TCP network interface  
+Print Speed 65~85 m²/hour 
+Panel Touch button, bilingual (Chinese/English), durable  
+Environment Temperature: 35°C, Humidity: 85% (non-condensing) 
+Voltage/Capacity AC 220V/50~60Hz (UPS ≥600W recommended)  
+Control Software OS: Windows XP/7/2000/Win10  
+ 
+
+--- PAGE 11 ---
+ Models Plotting Width  Paper Width  Machine Size (L×W×H)  
+SN-MJ/2-160 | SN-MJ/4-160 1650mm 1800mm 2440mm × 590mm × 1016mm  
+SN-MJ/2-180 | SN-MJ/4-180 1850mm 2000mm 2640mm × 590mm × 1016mm  
+SN-MJ/2-200 | SN-MJ/4-200 2050mm 2200mm 2840mm × 590mm × 1016mm  
+SN-MJ/2-220 | SN-MJ/4-220 2250mm 2400mm 3040mm × 590mm × 1016mm  
+
+--- PAGE 12 ---
+ 
+No. of Cartridge:  2/4 Cartridge Type:  HP45 Resolution:  0.025mm  
+Paper Weight:  ≤35kg File Format:  PLT/HPGL/RPGL  Hardware  Interface:  Network Cable  RJ45 
+Motor Type:  Servo Motor  Total  Power:  0.4kW Power Supply:  AC220V/110V  ±10% 50/60Hz  
+Suggest Working Speed:  110㎡/h (Two Cartridges); 200 ㎡/h (Four Cartridges)  
+Paper Weight:  40-120g (The actual weight must refer to the paper material)  
+Compatible Software:  Compatible with Most Garment CAD  
+*Paper Feeding System:  Auto-Feeding Paper  
+
+--- PAGE 13 ---
+Models SN-MJ/2-160-KC SN-MJ/2-180-KC 
+Cutting and Drawing Width 1600mm 1800mm 
+Paper Width (mm) 1800mm 2000mm 
+Max. Paper Load 35Kg 
+Cutting Speed ≤1000mm/s 
+Cutting Tool Rotating Knife 
+Cutting Material Thickness 80g material, thickness ≤200g 
+Drawing Material Thickness 40g~120g 
+Feeding System Automatic Feeding System 
+Cartridge Type HP45 
+Working Temperature 0–40°C 
+Cartridge Number 2 
+Data Port RJ45 NET 
+Inkjet Resolution 600 DPI 
+Motor Type Full Servo Motor 
+Inkjet Printing Speed 110 m²/h 
+Power 0.4KW 
+Data Format PLT/HPGL/RPGL 
+Voltage AC220V/110V ±10% 50/60Hz 
+ 
+
+--- PAGE 14 ---
+Specification Details 
+Max. Printing Speed 95 m²/h 
+Buffer Capacity One-time fast transfer 
+Max. Cutting Speed 1000 mm/s 
+Command System HPGL command 
+Cutting Depth ≤ 2 mm 
+Control Panel LCD touch screen 
+Applied Materials Kraft paper and other sample auxiliary materials 
+Working Temperature 0–40℃ 
+Cutting Tool Rotating Knife 
+Power Supply Single phase AC220V ±10% 50/60Hz 
+Material Fixing Vacuum adsorption 
+Working Humidity ≤85% (at 25℃, no condensation) 
+Data Transmission RJ45 
+ 
+Model Cutting Area Machine Size (L×W×H) 
+GOA-SP-1-2,FP-NM-ID+SKC-1-1200X900-SGAF-WC2+K-AF-1P220 1200 mm × 900 mm 2030 mm × 1370 mm × 1000 mm 
+GOA-SP-1-2,FP-NM-ID+SKC-1-1500X1200-SGAF-WC2+K-AF-1P220 1500 mm × 1200 mm 2330 mm × 1670 mm × 1000 mm 
+ 
+
+--- PAGE 15 ---
+
+--- PAGE 16 ---
+Model B4-1518C B4-2516C B4-2518C 
+Effective Cutting Area 1500*1800mm 2500*1600mm 2500*1800mm 
+Power 9KW 12.5KW 12.5KW 
+Max Cutting Speed 300-800mm/s 
+Operation Properties Work with any CAD Software, computer synchronously 
+for quick data transmission, with auto material feeder 
+device 
+Cutting Thickness ≤10mm 
+Cutting Materials PVC, TPU, PU 
+Standard Tools High Speed Oscillating Tool, Pen, Cursor Position  
+Options Rotary Tool, Wheel Knife Tool, Punching Tool 
+Fixing Method Vacuum Suction 
+Repeat Precision ≤0.01mm 
+Software Resolution 0.025 
+Interface Ethernet Port 
+Buffer Memory Fast transmission for multi -page large file 
+Command Mode HPGL, PLT, DXF 
+Control Panel 7-inch Colour Touchscreen 
+Driving System Digital Servo Motor, Straight Rail 
+Voltage / Power AC 380V±10% 50HZ 
+Working Temperature -10°C ~ 45°C 
+ 
+
+--- PAGE 17 ---
+Specification YS-160 YS-190 YS-210 
+Power Supply 1P / 220V 
+Motor Capacity 1 KW 
+Maximum fabric width 63ʺ / 1600 75ʺ / 1900 83ʺ / 2100 
+Table Width 72ʺ / 1830 84ʺ / 2130 92ʺ / 2330 
+Machine Weight 255 kgs 300 kgs 360 kgs 
+Fabric weight 60 kgs max 
+Diameter of Fabrics 450 mm max 
+Travel speed 90 m/min max  
+Machine Size (b × w × h) 2300 × 1350 × 800 mm 2600 × 1800 × 950 mm 2800 × 1800 × 950 mm 
+Packing Size (b × w × h) 2500 × 1550 × 1100 mm 2800 × 2000 × 1250 mm 3000 × 2000 × 1250 mm 
+N.W / G.W 445 / 675 kgs 570 / 860 kgs 610 / 970 kgs 
+Lay Height One-way 220 mm, 300 mm |Face to face 150 mm, 230 mm 
+Spreading methods One-way spreading Zigzag spreading Multiple length spreading 
+ 
+
+--- PAGE 18 ---
+Parameter YS-HX190 YS-HX210 
+Motor power (kW) 1 1 
+Bench width (mm) 1900mm / 75" 2100mm / 83" 
+Space width (mm) 2130mm / 84" 2330mm / 92" 
+Travel speed (m/min) 90 90 
+Fabric weight (kg) 60 60 
+Fabric diameter (mm) 450 450 
+Voltage 1P / 220V 1P / 220V 
+Machine size (mm) 2600x1800x950 2800x1800x950 
+Net/gross weight (kg) 570 / 860 610 / 970 
+Packing size (mm) 2800x2000x1250 3000x2000x1250 
+Floor Height 
+Single pull (standard) 220 mm 
+Single pull (extended) 300 mm 
+Double pull (standard) 150 mm 
+Double pull (extended) 230 mm 
+ 
+
+--- PAGE 19 ---
+ Specification YS-2517 YS-2520 YS-2523 YS-3317 YS-3320 YS-3323 
+Total Length of Equipment 5500mm 6800mm 
+Total Width of Equipment 2400mm 2700mm 3000mm 2400mm 2700mm 3000mm 
+Total Height of Equipment 1700mm 
+Working Length 1950mm 3150mm 
+Working Width 1650mm 1950mm 2250mm 1650mm 1950mm 2250mm 
+Net Weight 3000kg 3900kg 
+Cutting Height 5/7/11cm optional Blade thickness 2.0/2.5/3.0mm optional 
+Sharpening Method Two-wheel counter-rotating Maximum Mechanical Speed 60m/min 
+Voltage 380V 50Hz Air Flow Volume 160L/min 
+Air Pressure ≥ 0.5MPa Maximum Power 30kW 
+Backlash of Reducer 0.05° Re-cover Manual/cylinder type (optional) 
+Inertia Estimation Automatic adjustment Number of Encoder Bits 20bit/23bit/24bit 
+Safety Anti-collision Device Photoelectric sensor (optional) Movement Control Method Handle button 
+Rail Installation Overall processing, forming & installation Low Voltage Electrical Imported brands 
+Linear Guides Taiwanese brand Reducer Japanese brand 
+Servo Japanese brand 
+
+--- PAGE 20 ---
+Specification YS-2018 YS-1818 
+Cutting Height (Compressed) (mm) 90 90 
+Effective Cutting Area (L×W) (mm) 1800 × 2000 1800 × 1800 
+Dimensions (mm) 4920 × 2630 4920 × 2230 
+Cutting Knife Size (mm) 2.4 × 8.5 2.4 × 8.5 
+Cutting Speed (Max) (m/min) 15–20 15–20 
+Acceleration (Max) (m/s²) 8 8 
+Vibration Frequency (RPM) 6000 6000 
+Average Power Consumption (KW) 12 12 
+Movable System Optional 
+Drilling Device Optional 
+Cooling Device Optional 
+Intelligent Blade Adjustment Standard Configuration 
+Weight (KG) 3800–4200 
+Operating Platform Height (mm) 800–900 
+Voltage (V/Hz) 380/50 
+Power (KW) 30 
+Compressed Air Flow (m³/h) 2.5 
+Compressed Air Pressure (Mpa) 0.7 
+Noise Level (dB) <73 
+CAD Compatible Cut file, ISO6983, RS274D, DXF, PLA, PLX 
+Operating System Windows 
+Vacuum Negative Pressure (Max) -22 Kpa 
+ 
+
+--- PAGE 21 ---
+Model TF-100/72" TF-100/84" 
+Voltage 3P/380V 
+Fabric Weight  300kgs 
+Fabric Width  1655mm 1955mm 
+Upper & Lower Lifting Limit  300/1600mm   
+Fabric Spreading Width  90mm 90mm 
+Machine Dimension  2100 × 1250 × 2100mm  2400 × 1250 × 2100mm  
+Net Weight / Gross Weight  500/600kgs  700/800kgs  
+ 
+Model TF-260 
+Voltage 1P/220V 
+Fabric Diameter 500mm 
+Fabric Weight 150kg | 180kg | 210kg 
+Fabric Width 72" (1800mm) | 82" (2080mm) | 92" (2330mm) 
+Inspection Speed Up to 35 yards per minute 
+Net Weight / Gross Weight 400kg / 550kg | 600kg / 750kg | 800kg / 950kg 
+Machine Dimensions (mm) 2230 × 1250 × 1920 | 2530 × 1250 × 1920 | 2830 × 1250 × 1920 
+ 
+
+--- PAGE 22 ---
+Item Standard Model (PA -SSD-01) PLC Touch Control + Motor Model (PA -SSD-02) 
+Table plate, plastic surface  The table surface uses E1 -level multi -layer plywood, adhered  with laminate surface,  which is smooth, hard to 
+deform 
+PVC conveyor belt  · Standard dark grey matt e 
+· 1830 wide plate surface with 1580 wide conveyor belt  
+· 2130 wide plate surface with 1880 wide conveyor belt  
+· 2330 wide plate surface with 2080 wide conveyor belt  
+· Colour and size can be customized  
+Rack · National standard hardware such as screws 
+and nuts  
+· Manual grinding (non -sulfuric acid immersion)  
+· Baking powder paint at high temperature to  
+prevent corrosion  
+· National standard hardware such as screws and 
+nuts 
+· Manual grinding (non -sulfuric acid immersion)  
+· Anti-corrosion dust spraying, high temperature 
+baking powder paint anti -corrosion dust 
+customized control  
+Table Edges  Stainless Steel Edges  
+User Interface  Standard Switches  Touch screen forward and backward linkage, fine -tuning 
+speed, etc.  
+ 
+Air Floatation Table Automatic Conveyor Table 
+Need to pull the material  manually  from Spreading Table to Automa tic 
+Cutter due to which s traightness is compromised reducing the accuracy  
+Material is transferred  automatically  from Spr eading Table to Automatic 
+Cutter ensuring the accuracy and s traightness  
+Suction can sometimes stretch or shift delicate fabrics, which may reduce 
+cutting accuracy.  
+Synchronous transmission makes the fabric move together with the cutter, 
+which helps keep the cutting precise  
+Unnecessary electricity  losses across the working process  Uses power only while transporting  over 90% more efficient than an air 
+flotation table  
+Pulling requires two workers  A single button controls the entire conveyor process.  
+ 
+--- PAGE 23 ---
+
+--- PAGE 24 ---
