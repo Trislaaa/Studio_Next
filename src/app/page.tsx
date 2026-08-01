@@ -679,10 +679,10 @@ export default function Home() {
                 { title: 'Automated Fabric Cutting', desc: 'High-speed cutting with maximum efficiency', icon: 'scissors' },
                 { title: 'End-to-End Manufacturing', desc: 'From design to production with seamless workflow', icon: 'workflow' },
               ].map((feature, i) => (
-                <FadeInSection key={i} delay={i * 120} className="h-full">
+                <FadeInSection key={i} delay={i * 120} className="h-full min-w-0">
                   <TiltCard className="h-full">
-                    <div className="bg-white/90 backdrop-blur-md p-4 sm:p-6 lg:p-7 rounded-xl shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] border border-gray-100 flex flex-col gap-2 sm:gap-3 h-full">
-                      <div className="text-[#d29d42] h-5 w-5 sm:h-6 sm:w-6">
+                    <div className="bg-white/90 backdrop-blur-md p-4 sm:p-6 lg:p-7 rounded-xl shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] border border-gray-100 flex flex-col gap-2 sm:gap-3 h-full min-w-0">
+                      <div className="text-[#d29d42] h-5 w-5 sm:h-6 sm:w-6 shrink-0">
                         <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" className="w-full h-full">
                           {feature.icon === 'cpu' && <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 3v2M15 3v2M9 19v2M15 19v2M3 9h2M3 15h2M19 9h2M19 15h2M7 7h10v10H7V7zm2 2v6h6V9H9z" />}
                           {feature.icon === 'pencil-ruler' && <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 20l4.5-1L20 7.5a1.5 1.5 0 000-2.1L18.6 4a1.5 1.5 0 00-2.1 0L6.4 14.1 5 18.5 4 20zm10-12l2 2m-5 5h4" />}
@@ -690,9 +690,9 @@ export default function Home() {
                           {feature.icon === 'workflow' && <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 7a3 3 0 116 0 3 3 0 01-6 0zm10 10a3 3 0 116 0 3 3 0 01-6 0zM7 17a3 3 0 116 0 3 3 0 01-6 0zm6-10h4a2 2 0 012 2v3m-7 5H9a2 2 0 01-2-2v-3m6 0h2" />}
                         </svg>
                       </div>
-                      <div>
-                        <h3 className="text-sm sm:text-base font-bold text-[#111111] mb-1 sm:mb-2">{feature.title}</h3>
-                        <p className="text-[12px] sm:text-[13px] text-[#5F6368] font-normal leading-relaxed">{feature.desc}</p>
+                      <div className="min-w-0">
+                        <h3 className="text-[13px] sm:text-base font-bold text-[#111111] mb-1 sm:mb-2 leading-snug break-words">{feature.title}</h3>
+                        <p className="text-[11px] sm:text-[13px] text-[#5F6368] font-normal leading-relaxed break-words">{feature.desc}</p>
                       </div>
                     </div>
                   </TiltCard>
