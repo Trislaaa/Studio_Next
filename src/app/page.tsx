@@ -691,8 +691,8 @@ export default function Home() {
                         </svg>
                       </div>
                       <div className="min-w-0">
-                        <h3 className="text-[13px] sm:text-base font-bold text-[#111111] mb-1 sm:mb-2 leading-snug break-words">{feature.title}</h3>
-                        <p className="text-[11px] sm:text-[13px] text-[#5F6368] font-normal leading-relaxed break-words">{feature.desc}</p>
+<h3 className="text-[12px] sm:text-base font-bold text-[#111111] mb-1 sm:mb-2 leading-snug break-words">{feature.title}</h3>
+                        <p className="text-[10px] sm:text-[13px] text-[#5F6368] font-normal leading-relaxed break-words">{feature.desc}</p>
                       </div>
                     </div>
                   </TiltCard>
