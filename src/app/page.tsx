@@ -691,7 +691,7 @@ export default function Home() {
                         </svg>
                       </div>
                       <div className="min-w-0">
-<h4 className="text-[10px] sm:text-[12px] lg:text-[14px] font-black text-[#111827] mb-0.5 leading-none tracking-wide break-words">{feature.title}</h4>
+<h4 className="min-h-[2.6rem] sm:min-h-[3.1rem] text-[10px] sm:text-[12px] lg:text-[14px] font-black text-[#111827] mb-0.5 leading-none tracking-wide break-words">{feature.title}</h4>
                         <p className="text-[9px] sm:text-[10px] lg:text-[11px] text-[#6B7280] font-normal leading-snug break-words">{feature.desc}</p>
                       </div>
                     </div>
