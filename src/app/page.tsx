@@ -680,8 +680,8 @@ export default function Home() {
                 { title: 'End-to-End Manufacturing', desc: 'From design to production with seamless workflow', icon: 'workflow' },
               ].map((feature, i) => (
                 <FadeInSection key={i} delay={i * 120} className="h-full min-w-0">
-                  <TiltCard className="h-[165px] w-full max-w-[320px]">
-                    <div className="bg-white/90 backdrop-blur-md p-4 rounded-xl shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] border border-gray-100 flex flex-col justify-center gap-2 h-full min-w-0">
+                  <TiltCard className="w-[calc(100vw-2.5rem)] max-w-[320px] h-[140px] sm:w-[320px] sm:h-[165px]">
+                    <div className="bg-white/90 backdrop-blur-md p-3 sm:p-4 rounded-xl shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] border border-gray-100 flex flex-col justify-center gap-1.5 sm:gap-2 h-full w-full min-w-0 overflow-hidden">
                       <div className="text-[#d29d42] h-4 w-4 sm:h-5 sm:w-5 shrink-0">
                         <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" className="w-full h-full">
                           {feature.icon === 'cpu' && <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 3v2M15 3v2M9 19v2M15 19v2M3 9h2M3 15h2M19 9h2M19 15h2M7 7h10v10H7V7zm2 2v6h6V9H9z" />}
@@ -691,8 +691,8 @@ export default function Home() {
                         </svg>
                       </div>
                       <div className="min-w-0">
-<h4 className="min-h-[2.6rem] sm:min-h-[3.1rem] text-[10px] sm:text-[12px] lg:text-[14px] font-black text-[#111827] mb-0.5 leading-none tracking-wide break-words">{feature.title}</h4>
-                        <p className="text-[9px] sm:text-[10px] lg:text-[11px] text-[#6B7280] font-normal leading-snug break-words">{feature.desc}</p>
+<h4 className="min-h-[2.8rem] sm:min-h-[3.1rem] text-[11px] sm:text-[13px] lg:text-[15px] font-black text-[#111827] mb-0.5 leading-none tracking-wide break-words">{feature.title}</h4>
+                        <p className="text-[9px] sm:text-[11px] lg:text-[12px] text-[#6B7280] font-normal leading-snug break-words min-h-[1.8rem] sm:min-h-0">{feature.desc}</p>
                       </div>
                     </div>
                   </TiltCard>
@@ -700,7 +700,7 @@ export default function Home() {
               ))}
             </div>
 
-            <div className="mt-8 sm:mt-10 lg:mt-12 max-w-xl">
+            <div className="mt-6 sm:mt-10 lg:mt-12 w-full pl-2 sm:pl-4 lg:pl-6 xl:pl-8">
               <FadeInSection>
                 <h4 className="text-[#d29d42] text-[10px] tracking-[0.3em] font-bold mb-3 sm:mb-4 uppercase">OUR MISSION</h4>
                 <p className="text-white text-xl sm:text-2xl lg:text-3xl font-serif leading-tight">
