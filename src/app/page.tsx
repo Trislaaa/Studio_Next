@@ -672,7 +672,7 @@ export default function Home() {
             </FadeInSection>
           </div>
           <div className="lg:col-span-7 perspective-1000">
-            <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-4 lg:gap-5 justify-items-center">
               {[
                 { title: 'Intelligent CAD/CAM', desc: 'Advanced solutions for cutting room automation', icon: 'cpu' },
                 { title: 'Precision Pattern Design', desc: 'Accurate grading, marking & digital pattern creation', icon: 'pencil-ruler' },
@@ -680,9 +680,9 @@ export default function Home() {
                 { title: 'End-to-End Manufacturing', desc: 'From design to production with seamless workflow', icon: 'workflow' },
               ].map((feature, i) => (
                 <FadeInSection key={i} delay={i * 120} className="h-full min-w-0">
-                  <TiltCard className="h-full">
+                  <TiltCard className="h-full w-full max-w-[320px]">
                     <div className="bg-white/90 backdrop-blur-md p-4 sm:p-6 lg:p-7 rounded-xl shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] border border-gray-100 flex flex-col gap-2 sm:gap-3 h-full min-w-0">
-                      <div className="text-[#d29d42] h-5 w-5 sm:h-6 sm:w-6 shrink-0">
+                      <div className="text-[#d29d42] h-4 w-4 sm:h-5 sm:w-5 shrink-0">
                         <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" className="w-full h-full">
                           {feature.icon === 'cpu' && <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 3v2M15 3v2M9 19v2M15 19v2M3 9h2M3 15h2M19 9h2M19 15h2M7 7h10v10H7V7zm2 2v6h6V9H9z" />}
                           {feature.icon === 'pencil-ruler' && <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 20l4.5-1L20 7.5a1.5 1.5 0 000-2.1L18.6 4a1.5 1.5 0 00-2.1 0L6.4 14.1 5 18.5 4 20zm10-12l2 2m-5 5h4" />}
@@ -691,8 +691,8 @@ export default function Home() {
                         </svg>
                       </div>
                       <div className="min-w-0">
-<h3 className="text-[12px] sm:text-base font-bold text-[#111111] mb-1 sm:mb-2 leading-snug break-words">{feature.title}</h3>
-                        <p className="text-[10px] sm:text-[13px] text-[#5F6368] font-normal leading-relaxed break-words">{feature.desc}</p>
+<h4 className="text-[10px] sm:text-[12px] lg:text-[14px] font-black text-[#111827] mb-0.5 leading-none tracking-wide break-words">{feature.title}</h4>
+                        <p className="text-[9px] sm:text-[10px] lg:text-[11px] text-[#6B7280] font-normal leading-snug break-words">{feature.desc}</p>
                       </div>
                     </div>
                   </TiltCard>
