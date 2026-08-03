@@ -410,10 +410,6 @@ export default function Home() {
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
-  // Search UI state
-  const [isSearchOpen, setIsSearchOpen] = useState(false);
-  const [searchQuery, setSearchQuery] = useState('');
-  const searchInputRef = useRef<HTMLInputElement | null>(null);
   const experienceScrollRef = useRef<HTMLDivElement | null>(null);
   const [canScrollExperienceLeft, setCanScrollExperienceLeft] = useState(false);
   const [canScrollExperienceRight, setCanScrollExperienceRight] = useState(true);
@@ -441,24 +437,6 @@ export default function Home() {
     const delta = direction === 'right' ? scrollAmount : -scrollAmount;
     container.scrollBy({ left: delta, behavior: 'smooth' });
   };
-
-  const navSearchItems = [
-    { label: 'HOME', href: '#home' },
-    { label: 'ABOUT US', href: '#about' },
-    { label: 'PRODUCTS', href: '#products' },
-    { label: 'SERVICES', href: '#services' },
-    { label: 'TESTIMONIALS', href: '#testimonials' },
-    { label: 'EXPERIENCE CENTRE', href: '#experience-centre' },
-    { label: 'CONTACT US', href: '#contact' },
-  ];
-
-  useEffect(() => {
-    if (isSearchOpen) {
-      setTimeout(() => searchInputRef.current?.focus(), 50);
-    } else {
-      setSearchQuery('');
-    }
-  }, [isSearchOpen]);
 
   useEffect(() => {
     if (!selectedService) return;
@@ -550,48 +528,6 @@ export default function Home() {
               CONTACT US
               <span className="absolute -bottom-1 left-0 w-0 h-px bg-[#d29d42] transition-all duration-300 group-hover:w-full"></span>
             </Link>
-            {/* Search button */}
-            <div className="relative">
-              <button
-                aria-label="Open search"
-                onClick={() => setIsSearchOpen((s) => !s)}
-                className="w-9 h-9 flex items-center justify-center rounded-full hover:bg-white/10 transition-colors"
-              >
-                <svg className="w-4 h-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-4.35-4.35" />
-                  <circle cx="11" cy="11" r="6" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} />
-                </svg>
-              </button>
-
-              {isSearchOpen && (
-                <div className="absolute right-0 top-12 w-72 bg-white text-[#1e2f27] rounded-md shadow-2xl z-50">
-                  <div className="p-2">
-                    <input
-                      ref={searchInputRef}
-                      value={searchQuery}
-                      onChange={(e) => setSearchQuery(e.target.value)}
-                      onKeyDown={(e) => { if (e.key === 'Escape') setIsSearchOpen(false); }}
-                      placeholder="Search sections..."
-                      className="w-full px-3 py-2 rounded text-sm border border-gray-200 focus:outline-none"
-                    />
-                  </div>
-                  <div className="max-h-44 overflow-auto">
-                    {(navSearchItems.filter(i => i.label.toLowerCase().includes(searchQuery.toLowerCase())).slice(0,6)).map((item) => (
-                      <button
-                        key={item.href}
-                        onClick={() => { setIsSearchOpen(false); setSearchQuery(''); window.location.hash = item.href; }}
-                        className="w-full text-left px-3 py-2 text-sm hover:bg-[#f6f3ee]"
-                      >
-                        {item.label}
-                      </button>
-                    ))}
-                    {navSearchItems.filter(i => i.label.toLowerCase().includes(searchQuery.toLowerCase())).length === 0 && (
-                      <div className="px-3 py-2 text-sm text-gray-500">No results</div>
-                    )}
-                  </div>
-                </div>
-              )}
-            </div>
           </div>
 
           {/* Mobile Hamburger */}
