@@ -680,8 +680,8 @@ export default function Home() {
                 { title: 'End-to-End Manufacturing', desc: 'From design to production with seamless workflow', icon: 'workflow' },
               ].map((feature, i) => (
                 <FadeInSection key={i} delay={i * 120} className="h-full min-w-0">
-                  <TiltCard className="h-full w-full max-w-[320px]">
-                    <div className="bg-white/90 backdrop-blur-md p-4 sm:p-6 lg:p-7 rounded-xl shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] border border-gray-100 flex flex-col gap-2 sm:gap-3 h-full min-h-[140px] sm:min-h-[165px] lg:min-h-[185px] min-w-0">
+                  <TiltCard className="h-[165px] w-full max-w-[320px]">
+                    <div className="bg-white/90 backdrop-blur-md p-4 rounded-xl shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] border border-gray-100 flex flex-col justify-center gap-2 h-full min-w-0">
                       <div className="text-[#d29d42] h-4 w-4 sm:h-5 sm:w-5 shrink-0">
                         <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" className="w-full h-full">
                           {feature.icon === 'cpu' && <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 3v2M15 3v2M9 19v2M15 19v2M3 9h2M3 15h2M19 9h2M19 15h2M7 7h10v10H7V7zm2 2v6h6V9H9z" />}
