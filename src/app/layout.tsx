@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Inter, Playfair_Display, Jura, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 import Providers from '@/components/Providers';
 import ChatWidget from '@/components/ChatWidget';
@@ -14,6 +14,21 @@ const inter = Inter({
 const playfair = Playfair_Display({
   variable: "--font-display",
   subsets: ["latin"],
+  display: "swap",
+});
+
+const jura = Jura({
+  variable: "--font-jura",
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  display: "swap",
+});
+
+const cormorant = Cormorant_Garamond({
+  variable: "--font-cormorant",
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  style: ["italic", "normal"],
   display: "swap",
 });
 
@@ -40,7 +55,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
+    <html lang="en" className={`${inter.variable} ${playfair.variable} ${jura.variable} ${cormorant.variable}`}>
       <body className="antialiased">
         <Providers>{children}</Providers>
         <GoToTopButton />

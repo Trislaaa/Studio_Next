@@ -282,12 +282,8 @@ export default function CadSoftwarePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 </svg>
               </button>
-              <div className="flex items-center gap-3 mb-12">
-                <Image src="/logo-s.png" alt="STUDIO NEXT" width={40} height={40} className="object-cover object-left w-10 h-10" />
-                <div>
-                  <p className="text-white font-serif text-lg">STUDIO NEXT<span className="align-super text-[0.55em] leading-none ml-0.5">TM</span></p>
-                  <p className="text-[#d29d42] text-[8px] tracking-[0.3em] uppercase">Concept to creation</p>
-                </div>
+              <div className="flex items-center mb-10">
+                <Image src="/logo-transparent.png" alt="Studio Next - Concept to Creation" width={280} height={92} className="h-14 sm:h-16 w-auto object-contain drop-shadow-sm" />
               </div>
               <nav className="flex flex-col gap-2">
                 {[
@@ -318,13 +314,9 @@ export default function CadSoftwarePage() {
       </AnimatePresence>
 
       {/* Navigation */}
-      <nav className="relative z-30 w-full px-5 sm:px-8 lg:px-16 py-6 sm:py-8 flex justify-between items-center bg-[#0B2532] text-white">
-        <Link href="/" className="flex items-center gap-3 sm:gap-4 group">
-          <Image src="/logo-s.png" alt="STUDIO NEXT Logo" width={44} height={44} priority className="object-cover object-left sm:w-14 sm:h-14" />
-          <div className="flex flex-col">
-            <span className="text-xl sm:text-2xl font-serif tracking-wide">STUDIO NEXT<span className="align-super text-[0.55em] leading-none ml-0.5">TM</span></span>
-            <span className="text-[#d29d42] text-[7px] sm:text-[8px] tracking-[0.3em] font-medium uppercase mt-1">Concept to creation</span>
-          </div>
+      <nav className="relative z-30 w-full px-5 sm:px-8 lg:px-16 py-4 sm:py-6 flex justify-between items-center bg-[#0B2532] text-white">
+        <Link href="/" className="flex items-center group">
+          <Image src="/logo-transparent.png" alt="Studio Next - Concept to Creation" width={320} height={104} priority className="h-16 sm:h-20 lg:h-24 w-auto object-contain drop-shadow-sm" />
         </Link>
 
         <div className="hidden lg:flex gap-8 items-center text-[10px] tracking-[0.16em] font-medium uppercase">
@@ -474,12 +466,8 @@ export default function CadSoftwarePage() {
         <div className="max-w-screen-2xl mx-auto">
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-12 lg:gap-24 border-b border-[#2c4036]/50 pb-10 sm:pb-16">
             <div>
-              <div className="flex items-center gap-4 mb-5 sm:mb-6">
-                <Image src="/logo-s.png" alt="Logo" width={52} height={52} className="object-cover object-left" />
-                <div>
-                  <h3 className="text-xl sm:text-2xl font-serif tracking-wide">STUDIO NEXT<span className="align-super text-[0.55em] leading-none ml-0.5">TM</span></h3>
-                  <span className="text-[#d29d42] text-[8px] tracking-[0.3em] font-medium uppercase mt-1">Concept to creation</span>
-                </div>
+              <div className="flex items-center mb-6">
+                <Image src="/logo-transparent.png" alt="Studio Next - Concept to Creation" width={320} height={104} className="h-16 sm:h-20 lg:h-24 w-auto object-contain drop-shadow-sm" />
               </div>
               <p className="text-[#84a395] text-sm font-light leading-relaxed max-w-sm">
                 Studio Next is a leading CAD/CAM solutions provider delivering innovative, reliable cutting room automation and tailored services.

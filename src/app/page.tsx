@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import Image from 'next/image';
 import Link from 'next/link';
@@ -293,12 +293,8 @@ function MobileNav({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }
             </button>
 
             {/* Logo */}
-            <div className="flex items-center gap-3 mb-12">
-              <Image src="/logo-s.png" alt="STUDIO NEXT" width={40} height={40} className="object-cover object-left w-10 h-10" />
-              <div className="relative">
-                <p className="text-white font-serif text-lg">STUDIO NEXT<span className="align-super text-[0.55em] leading-none ml-0.5">TM</span></p>
-                <p className="text-[#d29d42] text-[8px] tracking-[0.3em] uppercase">Concept to creation</p>
-              </div>
+            <div className="flex items-center mb-10">
+              <Image src="/logo-transparent.png" alt="Studio Next - Concept to Creation" width={280} height={92} className="h-14 sm:h-16 w-auto object-contain drop-shadow-sm" />
             </div>
 
             {/* Nav Links */}
@@ -493,14 +489,10 @@ export default function Home() {
         <div className="absolute inset-0 z-0 bg-[#0B2532]"></div>
 
         {/* Navigation */}
-        <nav className="relative z-30 w-full px-5 sm:px-8 lg:px-16 py-6 sm:py-8 flex justify-between items-center text-white">
-          <Link href="/" className="flex items-center gap-3 sm:gap-4 group">
+        <nav className="relative z-30 w-full px-5 sm:px-8 lg:px-16 py-4 sm:py-6 flex justify-between items-center text-white">
+          <Link href="/" className="flex items-center group">
             <div className="flex items-center justify-center transition-transform duration-500 group-hover:scale-105">
-              <Image src="/logo-s.png" alt="STUDIO NEXT Logo" width={44} height={44} priority className="object-cover object-left sm:w-14 sm:h-14" />
-            </div>
-            <div className="flex flex-col">
-              <span className="text-xl sm:text-2xl font-serif tracking-wide">STUDIO NEXT<span className="align-super text-[0.55em] leading-none ml-0.5">TM</span></span>
-              <span className="text-[#d29d42] text-[7px] sm:text-[8px] tracking-[0.3em] font-medium uppercase mt-1">Concept to creation</span>
+              <Image src="/logo-transparent.png" alt="Studio Next - Concept to Creation" width={320} height={104} priority className="h-16 sm:h-20 lg:h-24 w-auto object-contain drop-shadow-sm" />
             </div>
           </Link>
 
@@ -875,12 +867,8 @@ export default function Home() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-12 lg:gap-24 border-b border-[#2c4036]/50 pb-10 sm:pb-16">
             <FadeInSection delay={0}>
               <div>
-                <div className="flex items-center gap-4 mb-5 sm:mb-6">
-                  <Image src="/logo-s.png" alt="STUDIO NEXT Logo" width={52} height={52} className="object-cover object-left w-[52px] h-[52px]" />
-                  <div className="flex flex-col">
-                    <h3 className="text-xl sm:text-2xl font-serif tracking-wide">STUDIO NEXT<span className="align-super text-[0.55em] leading-none ml-0.5">TM</span></h3>
-                    <span className="text-[#d29d42] text-[8px] tracking-[0.3em] font-medium uppercase mt-1">Concept to creation</span>
-                  </div>
+                <div className="flex items-center mb-6">
+                  <Image src="/logo-transparent.png" alt="Studio Next - Concept to Creation" width={320} height={104} className="h-16 sm:h-20 lg:h-24 w-auto object-contain drop-shadow-sm" />
                 </div>
                 <p className="text-[#84a395] text-sm font-light leading-relaxed max-w-sm">
                   Studio Next is a leading CAD/CAM solutions provider delivering innovative, reliable cutting room automation and tailored services to enhance productivity and build long-term client partnerships.
